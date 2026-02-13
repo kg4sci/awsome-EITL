@@ -213,3 +213,30 @@ As a summary, this survey is organized along two complementary dimensions to for
 [89. C. Xu et al., “WizardLM: Empowering Large Pre-Trained Language Models to Follow Complex Instructions,” in International Conference on Learning Representations, B. Kim, Y. Yue, S. Chaudhuri, K. Fragkiadaki, M. Khan, and Y. Sun, Eds., 2024, pp. 30745–30766](https://proceedings.iclr.cc/paper_files/paper/2024/hash/82eec786fdfbbfa53450c5feb7d1ac92-Abstract-Conference.html)
 
 [90. O. Sener and S. Savarese, “Active learning for convolutional neural networks: A core-set approach,” arXiv preprint arXiv:1708.00489, 2017](https://api.semanticscholar.org/CorpusID:3383786)
+
+[91. Z. Wang et al., “A Comprehensive Survey on Data Augmentation,” IEEE Transactions on Knowledge and Data Engineering, vol. 38, no. 1, pp. 47–66, 2026](https://doi.org/10.1109/TKDE.2025.3622600)
+
+[92. M.-F. Ge, J.-Z. Xu, Z.-W. Liu, and J. Huang, “A Mode-Switched Control Architecture for Human-in-the-Loop Teleoperation of Multislave Robots via Data-Training-Based Observer,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 54, no. 4, pp. 2471–2483, 2024](https://doi.org/10.1109/TSMC.2023.3344879)
+
+[93. T. Gai, J. Wu, F. Chiclana, M. Zhou, and W. Pedrycz, “A Personality Traits-Driven Conflict Quadrant Diagram by Large Language Models for Personalized Feedback in Group Decision-Making,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 55, no. 11, pp. 8506–8518, 2025](https://doi.org/10.1109/TSMC.2025.3605404)
+
+[94. X.-H. Li et al., “A Survey of Data-Driven and Knowledge-Aware eXplainable AI,” IEEE Transactions on Knowledge and Data Engineering, vol. 34, no. 1, pp. 29–49, 2022](https://doi.org/10.1109/TKDE.2020.2983930)
+
+[95. H. Yang, Z. Li, W. Pedrycz, and M. Farina, “Deep Learning From Crowds on a Healthy Data Diet,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 55, no. 9, pp. 6150–6163, 2025](https://doi.org/10.1109/TSMC.2025.3578893)
+
+[96. X. Sun, K. Shi, H. Tang, D. Wang, G. Xu, and Q. Li, “Educating Language Models as Promoters: Multi-Aspect Instruction Alignment With Self-Augmentation,” IEEE Transactions on Knowledge and Data Engineering, vol. 37, no. 8, pp. 4564–4577, 2025](https://doi.org/10.1109/TKDE.2025.3569585)
+
+[97. Y. Zhang, T. Zhao, D. Miao, and W. Pedrycz, “Granular Multilabel Batch Active Learning With Pairwise Label Correlation,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 52, no. 5, pp. 3079–3091, 2022](https://doi.org/10.1109/TSMC.2021.3062714)
+
+[98. Z. Tan et al., “Human–Machine Interaction in Intelligent and Connected Vehicles: A Review of Status Quo, Issues, and Opportunities,” IEEE Transactions on Intelligent Transportation Systems, vol. 23, no. 9, pp. 13954–13975, 2022](https://doi.org/10.1109/TITS.2021.3127217)
+
+[99. J. Zhao, L. Zhou, C. Liu, Y. Jiang, S. Kwong, and Z.-H. Zhan, “Multimodule-Based Dynamic Community Detection for Enhancing Innovation Performance in Crowdsourcing Contests,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 55, no. 11, pp. 8289–8303, 2025](https://doi.org/10.1109/TSMC.2025.3603622)
+
+[100. J. Kumar, J. Shao, R. Kumar, S. U. Din, C. B. Mawuli, and Q. Yang, “Online Semi-Supervised Classification on Multilabel Evolving High-Dimensional Text Streams,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 53, no. 10, pp. 5983–5995, 2023](https://doi.org/10.1109/TSMC.2023.3275298)
+
+[101. M. Sharifi, S. Tripathi, Y. Chen, Q. Zhang, and M. Tavakoli, “Reinforcement Learning Methods for Assistive and Rehabilitation Robotic Systems: A Survey,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 55, no. 7, pp. 4534–4551, 2025](https://doi.org/10.1109/TSMC.2025.3555598)
+
+[102. X. Li, X. Wang, F. Deng, and F.-Y. Wang, “Scenarios Engineering for Trustworthy AI: Domain Adaptation Approach for Reidentification With Synthetic Data,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 54, no. 11, pp. 6901–6910, 2024](https://doi.org/10.1109/TSMC.2024.3445117)
+
+[103. C. Zhu, L. Cui, Y. Tang, and J. Wang, “The Evolution and Future Perspectives of Artificial Intelligence-Generated Content,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 56, no. 1, pp. 546–564, 2026](https://doi.org/10.1109/TSMC.2025.3627806)
+
