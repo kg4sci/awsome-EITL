@@ -240,3 +240,12 @@ As a summary, this survey is organized along two complementary dimensions to for
 
 [103. C. Zhu, L. Cui, Y. Tang, and J. Wang, “The Evolution and Future Perspectives of Artificial Intelligence-Generated Content,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 56, no. 1, pp. 546–564, 2026](https://doi.org/10.1109/TSMC.2025.3627806)
 
+[104. L. Ren, H. Wang, J. Li, Y. Tang, and C. Yang, “AIGC for Industrial Time Series: From Deep-Generative Models to Large-Generative Models,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 55, no. 11, pp. 7774–7791, 2025](https://doi.org/10.1109/TSMC.2025.3598252)
+
+[105. G. He, B. Li, H. Wang, and W. Jiang, “Cost-Effective Active Semi-Supervised Learning on Multivariate Time Series Data With Crowds,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 52, no. 3, pp. 1437–1450, 2022](https://doi.org/10.1109/TSMC.2020.3019531)
+
+[106. M. Wang, C. Yang, F. Zhao, F. Min, and X. Wang, “Cost-Sensitive Active Learning for Incomplete Data,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 53, no. 1, pp. 405–416, 2023](https://doi.org/10.1109/TSMC.2022.3182122)
+
+[107. Y. Wu et al., “Deep Active Learning for Image Hierarchical Classification by Introducing Dependencies and Constraints Between Classes,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 55, no. 6, pp. 4396–4409, 2025](https://doi.org/10.1109/TSMC.2025.3552667)
+
+[108. A. Qin, Y. Zhou, L. Wang, X. Xue, and J. Pu, “Natural Language to Code for Automated Annotation in Autonomous Driving,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 56, no. 2, pp. 1394–1407, 2026](https://doi.org/10.1109/TSMC.2025.3648552)
