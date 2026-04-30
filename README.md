@@ -249,3 +249,13 @@ As a summary, this survey is organized along two complementary dimensions to for
 [107. Y. Wu et al., “Deep Active Learning for Image Hierarchical Classification by Introducing Dependencies and Constraints Between Classes,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 55, no. 6, pp. 4396–4409, 2025](https://doi.org/10.1109/TSMC.2025.3552667)
 
 [108. A. Qin, Y. Zhou, L. Wang, X. Xue, and J. Pu, “Natural Language to Code for Automated Annotation in Autonomous Driving,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 56, no. 2, pp. 1394–1407, 2026](https://doi.org/10.1109/TSMC.2025.3648552)
+
+[109. K. Blagec, A. Barbosa-Silva, S. Ott, and M. Samwald, “A curated, ontology-based, large-scale knowledge graph of artificial intelligence tasks and benchmarks,” Scientific Data, vol. 9, no. 1, p. 322, Jun. 2022](https://doi.org/10.1038/s41597-022-01435-x)
+
+[110. G. Adams, J. Zucker, and N. Elhadad, “A Meta-Evaluation of Faithfulness Metrics for Long-Form Hospital-Course Summarization,” Proc Mach Learn Res, vol. 219, pp. 2–30, Aug. 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC11441639)
+
+[111. J.-C. Klie, R. Eckart de Castilho, and I. Gurevych, “Analyzing Dataset Annotation Quality Management in the Wild,” Computational Linguistics, vol. 50, no. 3, pp. 817–866, Sep. 2024](https://doi.org/10.1162/coli_a_00516)
+
+[112. A. Hussain, K. Ullah, M. Afaq, M. Munsif, A. Hussain, and S. W. Baik, “Quality over quantity: a data-centric survey of annotation errors in object detection datasets,” Artificial Intelligence Review, vol. 59, no. 3, p. 107, Feb. 2026](https://doi.org/10.1007/s10462-026-11502-z)
+
+[113. Y. Liu et al., “Revisiting the Gold Standard: Grounding Summarization Evaluation with Robust Human Evaluation,” in Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), A. Rogers, J. Boyd-Graber, and N. Okazaki, Eds., Toronto, Canada: Association for Computational Linguistics, pp. 4140–4170, Jul. 2023](https://doi.org/10.18653/v1/2023.acl-long.228)
