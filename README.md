@@ -259,3 +259,10 @@ As a summary, this survey is organized along two complementary dimensions to for
 [112. A. Hussain, K. Ullah, M. Afaq, M. Munsif, A. Hussain, and S. W. Baik, “Quality over quantity: a data-centric survey of annotation errors in object detection datasets,” Artificial Intelligence Review, vol. 59, no. 3, p. 107, Feb. 2026](https://doi.org/10.1007/s10462-026-11502-z)
 
 [113. Y. Liu et al., “Revisiting the Gold Standard: Grounding Summarization Evaluation with Robust Human Evaluation,” in Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), A. Rogers, J. Boyd-Graber, and N. Okazaki, Eds., Toronto, Canada: Association for Computational Linguistics, pp. 4140–4170, Jul. 2023](https://doi.org/10.18653/v1/2023.acl-long.228)
+
+[114. L. Wang et al., “AutoDive+: An Adaptive Model Enhanced Multimodal Online Annotation Tool,” in Companion Proceedings of the ACM on Web Conference 2025, Sydney NSW Australia: ACM, pp. 2919–2922, May 2025](https://doi.org/10.1145/3701716.3715167)
+
+[115. F. Zhou et al., “Interpretable and robust multimodal data integration for precise treatment response and survival prediction in gastric cancer,” tii, vol. 1, no. 1, p. 100011, 2025](https://doi.org/10.59717/j.xinn-inform.2025.100011)
+
+[116. X. Chen, Z. Wang, Y. Li, L. Li, B. Sun, and P. Liang, “PAQC: A hybrid-intelligence framework for automated quality control of Raman spectroscopy via physics-aware and deep feature fusion,” tii, vol. 2, no. 1, p. 100028, 2026](https://doi.org/10.59717/j.xinn-inform.2026.100028)
+
