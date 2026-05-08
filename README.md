@@ -47,7 +47,8 @@ As a summary, this survey is organized along two complementary dimensions to for
 
 [6. Y. Du, L. Wang, M. Huang, D. Song, W. Cui, and Y. Zhou, “Autodive: An integrated onsite scientific literature annotation tool,” in Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations), 2023, pp. 76–85](https://aclanthology.org/2023.acl-demo.7/)
 
-[7. J. Jukić, F. Jelenić, M. Bićanić, and J. Snajder, “ALANNO: An Active Learning Annotation System for Mortals,” in Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations, D. Croce and L. Soldaini, Eds., Dubrovnik, Croatia: Association for Computational Linguistics, May 2023, pp. 228–235](https://doi.org/10.18653/v1/2023.eacl-demo.26)\
+[7. J. Jukić, F. Jelenić, M. Bićanić, and J. Snajder, “ALANNO: An Active Learning Annotation System for Mortals,” in Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations, D. Croce and L. Soldaini, Eds., Dubrovnik, Croatia: Association for Computational Linguistics, May 2023, pp. 228–235](https://doi.org/10.18653/v1/2023.eacl-demo.26)
+
 [8. Argilla, “Argilla: The tool where experts improve AI models.” 2026](https://argilla.io)
 
 [9. H. Zhang, X. Fu, and J. M. Carroll, “Augmenting Image Annotation: A Human-LMM Collaborative Framework for Efficient Object Selection and Label Generation,” ICLR 2025 Workshop on Bidirectional Human-AI Alignment, 2025](https://openreview.net/forum?id=ZPTvEUXzSq)
