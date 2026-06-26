@@ -267,3 +267,5 @@ As a summary, this survey is organized along two complementary dimensions to for
 
 [116. X. Chen, Z. Wang, Y. Li, L. Li, B. Sun, and P. Liang, “PAQC: A hybrid-intelligence framework for automated quality control of Raman spectroscopy via physics-aware and deep feature fusion,” tii, vol. 2, no. 1, p. 100028, 2026](https://doi.org/10.59717/j.xinn-inform.2026.100028)
 
+[117. L. Wang et al., “MicrobeDiscover: A Knowledge Graph–Enabled AI Framework for Identifying Microbes for Inorganic Nanomaterial Biosynthesis (Adv. Sci. 20/2026),” Advanced Science, vol. 13, no. 20, p. e74703, Apr. 2026](https://doi.org/10.1002/advs.74703)
+
