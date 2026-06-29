@@ -5,32 +5,54 @@ Yet, the construction of such data remains critically dependent on domain expert
 In this survey, we present a systems-oriented and unified analysis of EITL methodologies through two orthogonal dimensions: the evolution of data types and the collaboration paradigm. We systematically categorize existing approaches according to the roles of experts and the augmentation mechanisms of intelligent systems, ranging from rule-based pre-labeling and active sampling to generative synthesis and automated conflict resolution. By abstracting common architectural patterns and interaction mechanisms, this survey establishes a structured taxonomy and conceptual framework for expert-guided data engineering. It further outlines open challenges and future directions toward scalable, reliable, and human-centered data construction for modern AI training paradigms.
 
 ## Introduction
-With the continuous advancement of large language model (LLM) technologies, their applications in natural language understanding, content generation, intelligent dialogue, educational assistance, and cross-modal retrieval have become increasingly widespread, demonstrating strong general-purpose capabilities. However, in specialized domains such as healthcare, law, and finance, the practical performance of large models still faces significant challenges. These fields demand high levels of accuracy, rigor, and interpretability, yet existing training data often suffer from poor quality, inconsistent terminology, and lack of contextual depth, leading to limited comprehension, unreliable reasoning, and potentially misleading outputs. The fundamental root cause of this limitation resides in the pre-training paradigm of most large models: they are typically pre-trained on massive volumes of unsupervised general-domain data, which lack structured semantic labels and domain-specific knowledge depth. In contrast, supervised training data provide explicit input-output mappings that effectively guide models in learning complex semantics and logical rules. More importantly, when such data are systematically annotated by Experts, their accuracy and authority are significantly enhanced. Experts can discern subtle professional distinctions, ensure contextual coherence, and validate factual correctness, thereby constructing high-quality corpora that truly reflect domain-specific knowledge structures. Training data generated through deep expert involvement not only serve as reliable supervision signals during model fine-tuning but also lay the foundation for trustworthy deployment in high-stakes environments. Therefore, building a high-quality supervised data ecosystem centered on expert annotation has become a critical pathway for advancing large models toward specialization, precision, and reliability.
+With the continuous advancement of large language model (LLM) technologies, their applications in natural language understanding, content generation, intelligent dialogue, educational assistance, and cross-modal retrieval have become increasingly widespread, demonstrating strong general-purpose capabilities. However, in specialized domains such as healthcare, law, and finance, the practical performance of large models still faces significant challenges. These fields demand high levels of accuracy, rigor, and interpretability, yet existing training data often suffer from poor quality, inconsistent terminology, and lack of contextual depth, leading to limited comprehension, unreliable reasoning, and potentially misleading outputs. The fundamental root cause of this limitation resides in the pre-training paradigm of most large models: they are typically pre-trained on massive volumes of unsupervised general-domain data, which lack structured semantic labels and domain-specific knowledge depth. In contrast, supervised training data provide explicit input-output mappings that effectively guide models in learning complex semantics and logical rules. More importantly, when such data are systematically annotated by experts, their accuracy and authority are significantly enhanced. Experts leverage professional judgment to build high-quality, knowledge-aligned corpora. Training data generated through deep expert involvement not only serve as reliable supervision signals during model fine-tuning but also lay the foundation for trustworthy deployment in high-stakes environments. Therefore, building a high-quality supervised data ecosystem centered on expert annotation has become a critical pathway for advancing large models toward specialization, precision, and reliability.
+
+While high-quality expert-annotated data is critical for enhancing LLMs' professional capabilities, full manual annotation faces substantial practical hurdles\cite{ye2025evaluation,gai_personality_2025}. First, it relies heavily on specialized expertise and human judgment, rendering it time-consuming, costly, and hard to scale for large-volume training samples. Second, the lack of standardized protocols and efficient conflict resolution mechanisms further limits scalability. Resolving these via manual discussion or hierarchical review requires repeated communication and validation, further delaying data production.
+These issues collectively cause a severe supply lag of high-quality annotated data relative to the growing demands of LLMs, forming a ``data bottleneck''. Particularly for LLMs, limited curated data cannot fully unlock their potential, hindering deep optimization and reliable deployment in specialized domains\cite{qin_natural_2026,he_cost-effective_2022}. Thus, improving annotation efficiency while preserving quality, as well as enabling automated/semi-automated conflict resolution, has become a key challenge for scaling high-quality training data production.
 ## Background
-Human-in-the-loop (HITL) is a foundational paradigm in machine learning that integrates human input throughout the training, refinement, and evaluation of AI systems, playing a pivotal role in the creation of high-quality training data. Traditionally, HITL frameworks treat human participants as generic annotators or end users whose primary function is to provide labels or feedback based on surface-level cues. However, this view overlooks a crucial distinction: not all human input is equivalent. In knowledge-intensive domains, the involvement of Experts, which means professionals with deep conceptual understanding and procedural expertise, is essential for ensuring both the accuracy and epistemic validity of AI-driven decisions.
+Human-in-the-loop (HITL) is a foundational paradigm in machine learning that integrates human input throughout the training, refinement, and evaluation of AI systems, playing a pivotal role in the creation of high-quality training data\cite{Human–Machine-Interaction}. Traditionally, HITL frameworks treat human participants as generic annotators or end users whose primary function is to provide labels or feedback based on surface-level cues. However, this view overlooks a crucial distinction: not all human input is equivalent. In knowledge-intensive domains, the involvement of experts, which means professionals with deep conceptual understanding and procedural expertise, is essential for ensuring both the accuracy and epistemic validity of AI-driven decisions.
+
+This motivates the shift toward Expert-in-the-Loop (EITL), a specialized form of HITL where expert judgment shapes the semantics, structure, and reliability of training data. Unlike conventional labeling, EITL enables the construction of knowledge-grounded datasets, in which annotations capture not only what is observed but also why it is significant, embedding causal reasoning, contextual nuance, and domain-specific uncertainty.
+
+Consequently, methods and platforms designed for EITL require evaluation beyond standard performance metrics. It is imperative to assess them from the expert's perspective, focusing on scientific soundness, practical usability, and model explainability. Only through such holistic analysis can we understand how AI tools can effectively augment expert cognition, and ultimately improve the efficiency and integrity of knowledge-intensive data curation pipelines.
 ## Taxonomy
-In this section, we propose a unified taxonomy that categorizes current approaches to EITL-based data generation based on the type of training data being produced and Expert-AI collaboration mechanism. Building upon the three core data categories introduced in Section II, which are supervised data, instruction-following data, and preference data, we further conduct a vertical review from the perspective of intelligence levels and characterize them in terms of methodological principles, platform requirements, and workflow patterns.
+To systematically address the gaps identified in prior studies, we propose a unified taxonomy that categorizes current approaches to EITL-based data generation based on the type of training data being produced and Expert-AI collaboration mechanism. Building upon the three core data categories introduced in Section II, which are supervised data, instruction-following data, and preference data, we further conduct a vertical review from the perspective of intelligence levels and characterize them in terms of methodological principles, platform requirements, and workflow patterns.
 ### Overview of the Taxonomy
 We present a systematic taxonomy categorizing methodologies for expert-involved dataset construction. The framework is structured along two orthogonal dimensions: the Evolution of Data Type, representing the increasing abstraction of supervision signals, and Increasing AI Agency, illustrating the paradigm shift in human-machine collaboration. This taxonomy highlights the transition from labor-intensive manual annotation to scalable, AI-driven curation strategies guided by expert knowledge.
 ### Evolution of Data Type
- Under the EITL framework, Experts enhance the quality of supervised, instruction-following, and preference data by injecting deep domain knowledge. They provide accurate labels, author semantically rich instructions, and deliver nuanced feedback, ensuring training signals reflect not only patterns but also professional reasoning and judgment.
+From the perspective of data representation, under the EITL framework, experts enhance the quality of supervised, instruction-following, and preference data by injecting deep domain knowledge. They provide accurate labels, author semantically rich instructions, and deliver nuanced feedback, ensuring training signals reflect not only patterns but also professional reasoning and judgment.
 ### Collaboration Paradigm
-For each type of data, we conduct a comparative analysis of EITL from the perspective of intelligence levels, showing how the role of the expert transforms from a laborer to a legislator. 
+
+For each type of data, we conduct a comparative analysis of EITL from the perspective of intelligence levels, showing how the role of the expert transforms from a laborer to a legislator.
+
+#### Pure Expert
+
+This paradigm represents the traditional approach where data quality relies solely on human cognition. It is characterized by high precision but low scalability.
+
+In this part of the review, we focus on methods and platforms for improving the efficiency of expert annotation, such as expert crowdsourcing and arbitration protocols. These approaches primarily aim to enhance the efficiency and accuracy of collaboration among experts, rather than processing the data to be annotated itself.
+
+#### AI-Guided Expert
+
+With technological advancements, it has become clear that relying solely on experts for annotation leads to severe efficiency issues. As a result, a series of data filtering methods have emerged to assist experts in constructing high-quality datasets.
+
+At this stage, AI acts as a filter or assistant to optimize human effort, shifting the focus from exhaustive annotation to high-value annotation. Despite the efficiency gains brought by the inclusion of models, experts remain the primary producers of data at this stage.
+
+#### Expert-Guided AI
+
+Gradually, intelligent models began to substitute for more expert functions, particularly with the rise of large language models, whereby the primary source of data production shifted from experts to intelligent models.
+
+In this stage, experts mainly define the underlying logic or constraints, while AI is responsible for large-scale data generation.
+
+#### A Unified View of Expert Role Evolution
+
+Taken together, these three paradigms reveal a coherent trajectory of expert role evolution :
+
+- **Pure Expert:** Experts are *semantic producers*.
+- **AI-Guided Expert:** Experts become *strategic reviewers and curators*.
+- **Expert-Guided AI:** Experts act as *rule designers, policy setters, and governors*.
+
 ### Summary
 As a summary, this survey is organized along two complementary dimensions to form a clear, extensible, and easily navigable map of the field: (i) an orthogonal taxonomy grounded in data types × collaboration paradigm, which structures the problem space and research targets; and (ii) a methodological and platform-oriented lens that summarizes the end-to-end solution chain from algorithmic design to system deployment, enabling a holistic synthesis of prior work.
-
-| Data Type | Core Methods | Features |
-| :-----| :----- | :----- |
-| Traditional Supervised Data | Expert-Centric Adjudication | Expert crowdsourcing, adjudication protocols, gold standards |
-|   | Interactive Active Selection for Expert | Active Learning, pre-labeling |
-|   | Programmatic Weak Supervision by Expert | Rules-based Learning, weak supervision |
-| Instruction-Following Data | Human-Authored Instruction Curation | Crowdsourcing, human-annotated instructions, gold standards |
-|   | Augmented Instruction Evolution | Instruction backtranslation, Iterative Filtering |
-|   | Schema-Driven Instruction Synthesis | Instruction-driven learning, instruction mining |
-| Preference Data | Expert-Driven Preference Data Generation | Expert full sample annotation, manual preference labeling |
-|   | Human-Centered, AI-Assisted Preference Data Generation | Active Preference Learning |
-|   | AI-Driven Preference Data Generation with Expert Oversight | Self-supervised learning, multi-agent optimization |
-
 
 
 ## References
